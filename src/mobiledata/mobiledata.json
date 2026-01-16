@@ -1,0 +1,307 @@
+[
+  {
+    "id": 1,
+    "title": "iPhone 14 Pro Max",
+    "description": "Apple iPhone 14 Pro Max features a stunning Super Retina XDR display, A16 Bionic chip, and advanced triple-camera system for professional photography.",
+    "image": "https://i.ibb.co.com/jZDDVjdn/elegant-smartphone-composition.jpg",
+    "price": 1199,
+    "rating": 4.9,
+    "category": "Smartphone",
+    "stock": 12
+  },
+  {
+    "id": 2,
+    "title": "Samsung Galaxy S23 Ultra",
+    "description": "Samsung Galaxy S23 Ultra comes with a powerful Snapdragon processor, 200MP camera, and S-Pen support for productivity lovers.",
+    "image": "https://i.ibb.co.com/fdg20sjF/new-cell-phone-colorful-background.jpg",
+    "price": 1099,
+    "rating": 4.8,
+    "category": "Smartphone",
+    "stock": 15
+  },
+  {
+    "id": 3,
+    "title": "Google Pixel 8 Pro",
+    "description": "Google Pixel 8 Pro offers an exceptional camera experience, clean Android UI, and AI-powered features with long-term updates.",
+    "image": "https://i.ibb.co/K6y3f9F/pixel8.jpg",
+    "price": 999,
+    "rating": 4.7,
+    "category": "Smartphone",
+    "stock": 10
+  },
+  {
+    "id": 4,
+    "title": "Xiaomi 13 Pro",
+    "description": "Xiaomi 13 Pro features Leica camera technology, AMOLED display, and flagship-level performance at a competitive price.",
+    "image": "https://i.ibb.co/8z4dH9R/xiaomi13.jpg",
+    "price": 899,
+    "rating": 4.6,
+    "category": "Smartphone",
+    "stock": 18
+  },
+  {
+    "id": 5,
+    "title": "OnePlus 11 5G",
+    "description": "OnePlus 11 delivers smooth performance with Snapdragon chipset, fast charging, and a clean OxygenOS experience.",
+    "image": "https://i.ibb.co/6Y5B2F4/oneplus11.jpg",
+    "price": 799,
+    "rating": 4.7,
+    "category": "Smartphone",
+    "stock": 20
+  },
+  {
+    "id": 6,
+    "title": "iPhone 13",
+    "description": "Apple iPhone 13 offers powerful performance, excellent camera quality, and long battery life in a premium design.",
+    "image": "https://i.ibb.co/Xx7y1qK/iphone13.jpg",
+    "price": 799,
+    "rating": 4.8,
+    "category": "Smartphone",
+    "stock": 14
+  },
+  {
+    "id": 7,
+    "title": "Samsung Galaxy A54",
+    "description": "Galaxy A54 is a mid-range smartphone with a vibrant AMOLED display, reliable camera, and strong battery backup.",
+    "image": "https://i.ibb.co/kXqY1vZ/a54.jpg",
+    "price": 449,
+    "rating": 4.5,
+    "category": "Smartphone",
+    "stock": 25
+  },
+  {
+    "id": 8,
+    "title": "Redmi Note 12 Pro",
+    "description": "Redmi Note 12 Pro features a high-refresh-rate display, fast charging, and excellent value for budget-conscious users.",
+    "image": "https://i.ibb.co/sy8JQ0R/redmi12.jpg",
+    "price": 349,
+    "rating": 4.4,
+    "category": "Smartphone",
+    "stock": 30
+  },
+  {
+    "id": 9,
+    "title": "Realme GT Neo 5",
+    "description": "Realme GT Neo 5 delivers flagship-level speed, modern design, and ultra-fast charging technology.",
+    "image": "https://i.ibb.co/ZJ7W8Qk/realmegt.jpg",
+    "price": 399,
+    "rating": 4.5,
+    "category": "Smartphone",
+    "stock": 22
+  },
+  {
+    "id": 10,
+    "title": "Nothing Phone (2)",
+    "description": "Nothing Phone (2) features a unique glyph interface, smooth performance, and a clean Android experience.",
+    "image": "https://i.ibb.co/Ms5m3Xk/nothing2.jpg",
+    "price": 599,
+    "rating": 4.6,
+    "category": "Smartphone",
+    "stock": 16
+  },
+
+  {
+    "id": 11,
+    "title": "Apple AirPods Pro (2nd Gen)",
+    "description": "AirPods Pro offer active noise cancellation, spatial audio, and seamless integration with Apple devices.",
+    "image": "https://i.ibb.co/7r1nKQy/airpods.jpg",
+    "price": 249,
+    "rating": 4.8,
+    "category": "Accessories",
+    "stock": 40
+  },
+  {
+    "id": 12,
+    "title": "Samsung Galaxy Buds 2 Pro",
+    "description": "Galaxy Buds 2 Pro deliver premium sound quality, noise cancellation, and comfortable fit for long listening sessions.",
+    "image": "https://i.ibb.co/J2r9gq3/buds2.jpg",
+    "price": 199,
+    "rating": 4.7,
+    "category": "Accessories",
+    "stock": 35
+  },
+  {
+    "id": 13,
+    "title": "Anker Fast Charging Adapter",
+    "description": "Anker fast charging adapter supports quick charge technology and ensures safe, efficient power delivery.",
+    "image": "https://i.ibb.co/qn2Y7ZB/anker.jpg",
+    "price": 29,
+    "rating": 4.6,
+    "category": "Accessories",
+    "stock": 50
+  },
+  {
+    "id": 14,
+    "title": "Wireless Charging Pad",
+    "description": "Sleek wireless charging pad compatible with all Qi-enabled smartphones for hassle-free charging.",
+    "image": "https://i.ibb.co/xj9ZQmL/wireless.jpg",
+    "price": 39,
+    "rating": 4.4,
+    "category": "Accessories",
+    "stock": 45
+  },
+  {
+    "id": 15,
+    "title": "MagSafe Power Bank",
+    "description": "MagSafe power bank offers portable charging with magnetic attachment for supported iPhone models.",
+    "image": "https://i.ibb.co/W0k1d9k/magsafe.jpg",
+    "price": 79,
+    "rating": 4.6,
+    "category": "Accessories",
+    "stock": 28
+  },
+
+  {
+    "id": 16,
+    "title": "Apple Watch Series 9",
+    "description": "Apple Watch Series 9 features advanced health tracking, fitness monitoring, and seamless iPhone integration.",
+    "image": "https://i.ibb.co/0cF1tZw/watch9.jpg",
+    "price": 399,
+    "rating": 4.8,
+    "category": "Wearables",
+    "stock": 20
+  },
+  {
+    "id": 17,
+    "title": "Samsung Galaxy Watch 6",
+    "description": "Galaxy Watch 6 provides health insights, stylish design, and long battery life for Android users.",
+    "image": "https://i.ibb.co/F6c8j0f/watch6.jpg",
+    "price": 349,
+    "rating": 4.7,
+    "category": "Wearables",
+    "stock": 18
+  },
+  {
+    "id": 18,
+    "title": "Xiaomi Smart Band 8",
+    "description": "Xiaomi Smart Band 8 offers fitness tracking, heart rate monitoring, and impressive battery life.",
+    "image": "https://i.ibb.co/yY9ZKp7/band8.jpg",
+    "price": 59,
+    "rating": 4.5,
+    "category": "Wearables",
+    "stock": 60
+  },
+
+  {
+    "id": 19,
+    "title": "iPhone Leather Case",
+    "description": "Premium leather case designed to protect your iPhone while maintaining a stylish look.",
+    "image": "https://i.ibb.co/8NY9Yk9/case.jpg",
+    "price": 49,
+    "rating": 4.4,
+    "category": "Accessories",
+    "stock": 55
+  },
+  {
+    "id": 20,
+    "title": "Tempered Glass Screen Protector",
+    "description": "High-quality tempered glass protector ensures scratch resistance and crystal-clear display visibility.",
+    "image": "https://i.ibb.co/3N7F5kM/glass.jpg",
+    "price": 15,
+    "rating": 4.5,
+    "category": "Accessories",
+    "stock": 100
+  },
+
+  {
+    "id": 21,
+    "title": "Gaming Phone Cooler",
+    "description": "External cooling fan for mobile gaming that prevents overheating and improves performance.",
+    "image": "https://i.ibb.co/D4WZKkP/cooler.jpg",
+    "price": 35,
+    "rating": 4.3,
+    "category": "Gadgets",
+    "stock": 30
+  },
+  {
+    "id": 22,
+    "title": "Bluetooth Selfie Stick",
+    "description": "Extendable selfie stick with Bluetooth remote for perfect photos and videos.",
+    "image": "https://i.ibb.co/T1qJwF6/selfie.jpg",
+    "price": 25,
+    "rating": 4.4,
+    "category": "Gadgets",
+    "stock": 40
+  },
+  {
+    "id": 23,
+    "title": "Mobile Tripod Stand",
+    "description": "Adjustable tripod stand for mobile photography, video recording, and live streaming.",
+    "image": "https://i.ibb.co/ZB6M3gK/tripod.jpg",
+    "price": 29,
+    "rating": 4.5,
+    "category": "Gadgets",
+    "stock": 33
+  },
+  {
+    "id": 24,
+    "title": "Car Phone Holder",
+    "description": "Magnetic car phone holder for safe and convenient hands-free navigation.",
+    "image": "https://i.ibb.co/4J3s7Lq/carholder.jpg",
+    "price": 19,
+    "rating": 4.3,
+    "category": "Accessories",
+    "stock": 70
+  },
+  {
+    "id": 25,
+    "title": "USB-C Fast Charging Cable",
+    "description": "Durable USB-C cable supporting fast charging and high-speed data transfer.",
+    "image": "https://i.ibb.co/jZKf5nM/typec.jpg",
+    "price": 12,
+    "rating": 4.6,
+    "category": "Accessories",
+    "stock": 120
+  },
+
+  {
+    "id": 26,
+    "title": "Gaming Trigger Buttons",
+    "description": "Mobile gaming trigger buttons enhance shooting accuracy and gaming experience.",
+    "image": "https://i.ibb.co/qR7J8bZ/trigger.jpg",
+    "price": 18,
+    "rating": 4.4,
+    "category": "Gadgets",
+    "stock": 45
+  },
+  {
+    "id": 27,
+    "title": "VR Headset for Mobile",
+    "description": "Mobile VR headset for immersive gaming and 3D video experiences.",
+    "image": "https://i.ibb.co/Wz6Hn4P/vr.jpg",
+    "price": 69,
+    "rating": 4.2,
+    "category": "Gadgets",
+    "stock": 20
+  },
+  {
+    "id": 28,
+    "title": "Power Bank 20000mAh",
+    "description": "High-capacity power bank with fast charging support and multiple device compatibility.",
+    "image": "https://i.ibb.co/fH9MZ1r/powerbank.jpg",
+    "price": 49,
+    "rating": 4.7,
+    "category": "Accessories",
+    "stock": 38
+  },
+  {
+    "id": 29,
+    "title": "Noise Cancelling Headphones",
+    "description": "Over-ear noise cancelling headphones with rich bass and long battery life.",
+    "image": "https://i.ibb.co/k0y6FJq/headphone.jpg",
+    "price": 129,
+    "rating": 4.6,
+    "category": "Accessories",
+    "stock": 26
+  },
+  {
+    "id": 30,
+    "title": "Smartphone Cleaning Kit",
+    "description": "Complete cleaning kit for smartphone screens, lenses, and accessories.",
+    "image": "https://i.ibb.co/MpXnY3s/clean.jpg",
+    "price": 19,
+    "rating": 4.5,
+    "category": "Accessories",
+    "stock": 80
+  }
+]
