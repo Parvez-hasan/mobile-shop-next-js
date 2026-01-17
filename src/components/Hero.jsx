@@ -47,7 +47,7 @@ export default function Hero() {
 
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight mb-5">
             Discover the Latest <br />
-            <span className="text-[#CE8946]">Smartphones</span> Today
+            <span className="text-[#9b6af0]">Smartphones</span> Today
           </h1>
 
           <p className="text-base md:text-lg text-gray-200 mb-8 max-w-2xl mx-auto">
@@ -58,7 +58,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/items"
-              className="px-8 py-3 rounded-lg text-base font-semibold bg-[#CE8946] text-white hover:opacity-90 transition"
+              className="px-8 py-3 rounded-lg text-base font-semibold bg-[#9b6af0] text-white hover:opacity-90 transition"
             >
               Explore Mobiles
             </Link>

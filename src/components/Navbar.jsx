@@ -32,15 +32,15 @@ export default function Navbar() {
 
   const links = [
     { name: 'Home', href: '/' },
-    { name: 'Items', href: '/items' },
-    { name: 'Add Item', href: '/add-item' },
+    { name: 'Mobiles', href: '/mobiles' },
+    { name: 'Add Mobile', href: '/add-mobile' },
     { name: 'About', href: '/about' },
   ];
 
   return (
     <>
       <Toaster position="top-right" />
-      <nav className="bg-[#CE8946] text-gray-100 fixed w-full z-50 shadow">
+      <nav className="bg-[#9b6af0] text-gray-100 fixed w-full z-50 shadow">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16 items-center">
             {/* Logo */}
@@ -63,14 +63,14 @@ export default function Navbar() {
               {!isLoggedIn ? (
                 <Link
                   href="/login"
-                  className="px-3 py-1 bg-white text-[#CE8946] rounded-md font-semibold hover:opacity-90 transition"
+                  className="px-3 py-1 bg-white text-[#7C3AED] rounded-md font-semibold hover:opacity-90 transition"
                 >
                   Login
                 </Link>
               ) : (
                 <button
                   onClick={handleLogout}
-                  className="px-3 py-1 bg-white text-[#CE8946] rounded-md font-semibold hover:opacity-90 transition"
+                  className="px-3 py-1 bg-white text-[#7C3AED] rounded-md font-semibold hover:opacity-90 transition"
                 >
                   Logout
                 </button>

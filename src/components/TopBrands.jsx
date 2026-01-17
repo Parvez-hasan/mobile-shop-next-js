@@ -23,7 +23,7 @@ export default function TopBrands() {
         className="text-center mb-14"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-3">
-          Top <span className="text-[#CE8946]">Brands</span>
+          Top <span className="text-[#7C3AED]">Brands</span>
         </h2>
         <p className="text-gray-600 max-w-xl mx-auto">
           We partner with the world’s most trusted smartphone brands.

@@ -18,7 +18,7 @@ export default function NewsletterCTA() {
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-5">
           Stay Updated with the Latest <br />
-          <span className="text-[#CE8946]">Smartphones & Offers</span>
+          <span className="text-[#CE894]">Smartphones & Offers</span>
         </h2>
 
         <p className="text-gray-300 max-w-xl mx-auto mb-10">
@@ -38,7 +38,7 @@ export default function NewsletterCTA() {
 
             <button
               type="submit"
-              className="px-8 py-3 rounded-lg font-semibold bg-[#CE8946] text-white hover:opacity-90 transition whitespace-nowrap"
+              className="px-8 py-3 rounded-lg font-semibold bg-[#7C3AED] text-white hover:opacity-90 transition whitespace-nowrap"
             >
               Subscribe Now
             </button>

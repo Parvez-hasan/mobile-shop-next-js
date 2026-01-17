@@ -36,7 +36,7 @@ export default function WhyChooseUs() {
         className="text-center mb-14"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-3">
-          Why <span className="text-[#CE8946]">Choose Us</span>
+          Why <span className="text-[#7C3AED]">Choose Us</span>
         </h2>
         <p className="text-gray-600 max-w-xl mx-auto">
           We deliver quality, reliability, and exceptional customer experience.
@@ -55,7 +55,7 @@ export default function WhyChooseUs() {
             whileHover={{ y: -6 }}
             className="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition text-center"
           >
-            <item.icon className="mx-auto mb-5 text-[#CE8946]" size={48} />
+            <item.icon className="mx-auto mb-5 text-[#7C3AED]" size={48} />
 
             <h3 className="text-xl font-semibold mb-3">
               {item.title}
