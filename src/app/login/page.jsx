@@ -23,7 +23,7 @@ export default function LoginPage() {
       
       Cookies.set("auth", "true", { expires: 1 });
       toast.success("Login successful!");
-      router.push("/items"); 
+      router.push("/mobiles"); 
     } else {
       toast.error("Invalid email or password!");
     }

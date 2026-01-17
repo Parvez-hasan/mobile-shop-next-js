@@ -34,7 +34,7 @@ export default function HowItWorks() {
         className="text-center mb-16"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-3">
-          How It <span className="text-[#CE8946]">Works</span>
+          How It <span className="text-[#e537f8]">Works</span>
         </h2>
         <p className="text-gray-600 max-w-xl mx-auto">
           Buying your next smartphone is simple and hassle-free.
@@ -52,8 +52,8 @@ export default function HowItWorks() {
             viewport={{ once: true }}
             className="text-center"
           >
-            <div className="w-20 h-20 mx-auto mb-6 flex items-center justify-center rounded-full bg-[#CE8946]/10">
-              <step.icon size={36} className="text-[#CE8946]" />
+            <div className="w-20 h-20 mx-auto mb-6 flex items-center justify-center rounded-full bg-[#e537f8]/10">
+              <step.icon size={36} className="text-[#e537f8]" />
             </div>
 
             <h3 className="text-xl font-semibold mb-3">

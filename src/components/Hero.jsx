@@ -1,18 +1,18 @@
-'use client';
+"use client";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, EffectFade } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/effect-fade';
-import Link from 'next/link';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, EffectFade } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/effect-fade";
+import Link from "next/link";
 
 export default function Hero() {
-  
   const images = [
-    '/images/istockphoto-1329384615-1024x1024.jpg',
-    '/images/portrait-happy-woman-shopping-online.jpg',
-    '/images/prakash-mobile-shop-handia-allahabad-mobile-phone-dealers-fMazroVwX2.webp',
-    
+    "/images/istockphoto-1329384615-1024x1024.jpg",
+    "/images/portrait-happy-woman-shopping-online.jpg",
+    "/images/prakash-mobile-shop-handia-allahabad-mobile-phone-dealers-fMazroVwX2.webp",
+    "/images/rows-of-new-smart-phones-on-display-in-ee-mobile-phone-shop-TRB3M2.jpg",
+    "/images/smsgadget-2025-11-01-6905ccdb86608.webp",
   ];
 
   return (
@@ -57,13 +57,21 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/items"
-              className="px-8 py-3 rounded-lg text-base font-semibold bg-[#9b6af0] text-white hover:opacity-90 transition"
-            >
-              Explore Mobiles
-            </Link>
 
+            <Link href="/mobiles">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <button className="cursor-pointer bg-[#e537f8] shadow-[0px_4px_32px_0_rgba(99,102,241,.70)] px-6 py-3 rounded-xl border-[1px] border-slate-500 text-white text-base font-semibold group">
+                  <div className="relative overflow-hidden ">
+                    <p className="group-hover:-translate-y-7 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)]">
+                       Explore Mobiles
+                    </p>
+                    <p className="absolute top-7 left-0 group-hover:top-0 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)]">
+                       Explore Mobiles
+                    </p>
+                  </div>
+                </button>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ This project demonstrates routing, authentication, API integration, and componen
 ## 🚀 Live Project
 
 * **Live Site:** [https://your-vercel-link.vercel.app](https://your-vercel-link.vercel.app)
-* **GitHub Repository:** [https://github.com/your-username/mobile-shop](https://github.com/your-username/mobile-shop)
+* **GitHub Repository:** [https://github.com/Parvez-hasan/mobile-shop-next-js]
 
 ---
 
@@ -97,7 +97,7 @@ The goal of this project is to demonstrate:
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/mobile-shop.git
+git clone https://github.com/Parvez-hasan/mobile-shop-next-js.git
 ```
 
 ### 2️⃣ Install dependencies

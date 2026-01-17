@@ -8,7 +8,7 @@ export default function FeaturedMobiles() {
 
   return (
     <section className="w-10/12 mx-auto my-12">
-      <h2 className="text-4xl font-bold text-center mb-8 text-[#CE8946]">
+      <h2 className="text-4xl font-bold text-center mb-8 text-[#e537f8]">
         Featured Mobiles
       </h2>
 
@@ -40,7 +40,7 @@ export default function FeaturedMobiles() {
 
               <a
                 href={`/items/${item.id}`}
-                className="mt-4 block text-center bg-[#CE8946] text-white py-2 rounded-md font-semibold hover:opacity-90 transition"
+                className="mt-4 block text-center bg-[#e843fa] text-white py-2 rounded-md font-semibold hover:opacity-90 transition"
               >
                 View Details
               </a>

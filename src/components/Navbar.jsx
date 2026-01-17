@@ -17,7 +17,7 @@ export default function Navbar() {
 
   const toggleMenu = () => setOpen(!open);
 
-  // Check cookie on mount or route change
+  // Check cookie on mount 
   useEffect(() => {
     const auth = Cookies.get('auth') === 'true';
     setIsLoggedIn(auth);
@@ -46,8 +46,8 @@ export default function Navbar() {
             {/* Logo */}
             <div className="flex-shrink-0 font-bold text-2xl cursor-pointer">
               
-              <div className='flex justify-center items-center gap-2'>
-                <img src="/images/logo-phone.png" alt="MobileShop Logo" className="h-10  w-auto invert brightness-0" />
+              <div className='flex justify-center items-center gap-1'>
+                <Link href="/"> <img src="/images/logo-phone.png" alt="MobileShop Logo" className="h-10  w-auto invert brightness-0" /></Link>
                 <Link href="/"> <span>Mobile</span>Shop</Link>
               </div>
             </div>
@@ -58,7 +58,7 @@ export default function Navbar() {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className="hover:text-blue-400"
+                  className="hover:text-blue-300"
                 >
                   {link.name}
                 </Link>
@@ -108,7 +108,7 @@ export default function Navbar() {
               {!isLoggedIn ? (
                 <Link
                   href="/login"
-                  className="block px-3 py-2 rounded-md text-base font-medium bg-white text-[#CE8946] hover:opacity-90"
+                  className="block px-3 py-2 rounded-md text-base font-medium bg-white text-[#e537f8] hover:opacity-90"
                   onClick={() => setOpen(false)}
                 >
                   Login

@@ -39,7 +39,7 @@ export default function CustomerReviews() {
         className="text-center mb-16"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-3">
-          What Our <span className="text-[#CE8946]">Customers Say</span>
+          What Our <span className="text-[#e537f8]">Customers Say</span>
         </h2>
         <p className="text-gray-600 max-w-xl mx-auto">
           Real feedback from our satisfied customers.

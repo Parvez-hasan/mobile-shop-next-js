@@ -38,7 +38,7 @@ export default function NewsletterCTA() {
 
             <button
               type="submit"
-              className="px-8 py-3 rounded-lg font-semibold bg-[#7C3AED] text-white hover:opacity-90 transition whitespace-nowrap"
+              className="px-8 py-3 rounded-lg font-semibold bg-[#e537f8] text-white hover:opacity-90 transition whitespace-nowrap"
             >
               Subscribe Now
             </button>
