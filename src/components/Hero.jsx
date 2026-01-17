@@ -7,6 +7,7 @@ import 'swiper/css/effect-fade';
 import Link from 'next/link';
 
 export default function Hero() {
+  
   const images = [
     '/images/istockphoto-1329384615-1024x1024.jpg',
     '/images/portrait-happy-woman-shopping-online.jpg',
@@ -63,12 +64,6 @@ export default function Hero() {
               Explore Mobiles
             </Link>
 
-            <Link
-              href="/login"
-              className="px-8 py-3 rounded-lg text-base font-semibold border border-white/60 text-white hover:bg-white hover:text-black transition"
-            >
-              Admin Login
-            </Link>
           </div>
         </div>
       </div>

@@ -44,12 +44,16 @@ export default function Navbar() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16 items-center">
             {/* Logo */}
-            <div className="flex-shrink-0 font-bold text-xl cursor-pointer">
-              <Link href="/">MobileShop</Link>
+            <div className="flex-shrink-0 font-bold text-2xl cursor-pointer">
+              
+              <div className='flex justify-center items-center gap-2'>
+                <img src="/images/logo-phone.png" alt="MobileShop Logo" className="h-10  w-auto invert brightness-0" />
+                <Link href="/"> <span>Mobile</span>Shop</Link>
+              </div>
             </div>
 
             {/* Desktop Menu */}
-            <div className="hidden md:flex space-x-6 items-center">
+            <div className="hidden md:flex space-x-6 font-semibold  items-center">
               {links.map((link) => (
                 <Link
                   key={link.name}
@@ -88,7 +92,7 @@ export default function Navbar() {
 
         {/* Mobile Menu */}
         {open && (
-          <div className="md:hidden bg-gray-900">
+          <div className="md:hidden bg-pink-300">
             <div className="px-2 pt-2 pb-4 space-y-1 sm:px-3">
               {links.map((link) => (
                 <Link
