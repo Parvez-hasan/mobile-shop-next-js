@@ -30,7 +30,7 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="w-10/12 mx-auto mt-20 bg-[#fdfbc8] p-8 rounded-xl shadow-lg">
+    <div className="w-10/12 mx-auto mt-20 bg-[#f9dbfe] p-8 rounded-xl shadow-lg">
       <Toaster position="top-right" />
       <h1 className="text-3xl font-bold text-center text-[#5c09ea] mb-6">
         Login
