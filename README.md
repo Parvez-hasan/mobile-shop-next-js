@@ -7,7 +7,7 @@ This project demonstrates routing, authentication, API integration, and componen
 
 ## 🚀 Live Project
 
-* **Live Site:** [https://your-vercel-link.vercel.app](https://your-vercel-link.vercel.app)
+* **Live Site:** [https://mobile-shop-next-js.vercel.app/]
 * **GitHub Repository:** [https://github.com/Parvez-hasan/mobile-shop-next-js]
 
 ---

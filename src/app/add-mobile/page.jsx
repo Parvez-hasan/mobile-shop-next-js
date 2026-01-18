@@ -54,9 +54,9 @@ export default function AddMobilePage() {
   };
 
   return (
-    <div className="w-10/12 max-w-2xl mx-auto mt-20 bg-[#a560f3] p-8 rounded-xl shadow-lg">
+    <div className="w-10/12 max-w-2xl mx-auto mt-20 bg-[#ece4f7] p-8 rounded-xl shadow-lg">
       <Toaster position="top-right" />
-      <h1 className="text-3xl font-bold text-center text-[#efecf4] mb-6">
+      <h1 className="text-3xl font-bold text-center text-[#e537f8] mb-6">
         Add New Mobile
       </h1>
 
@@ -110,7 +110,7 @@ export default function AddMobilePage() {
 
         <button
           type="submit"
-          className="bg-[#ebe7f3] text-purple-700 py-3 rounded-md font-semibold hover:opacity-90 transition mt-4"
+          className="bg-[#e537f8] hover:bg-[#d525e8] text-white py-3 rounded-md font-semibold hover:opacity-90 transition mt-4"
         >
           Add Mobile
         </button>

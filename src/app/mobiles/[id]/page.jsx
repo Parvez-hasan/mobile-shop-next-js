@@ -22,12 +22,12 @@ export default function MobileDetailsPage() {
   const handleBuyNow = () => toast.success(`Proceeding to buy ${item.title}! 🛒`);
 
   return (
-    <section className="w-10/12 mx-auto my-20">
+    <section className="w-10/12 mx-auto my-18">
       <Toaster position="top-right" />
 
       <div className="flex flex-col md:flex-row gap-10">
 
-        {/* Image Section */}
+        {/* Image */}
         <div className="md:w-1/2 rounded-xl overflow-hidden shadow-2xl border border-[#EBD6B8] h-[500px]">
           <img
             src={item.image}
@@ -36,7 +36,7 @@ export default function MobileDetailsPage() {
           />
         </div>
 
-        {/* Content Section (Bottom Aligned) */}
+        {/* Content Section */}
         <div className="md:w-1/2 flex flex-col justify-end h-[500px]">
           <div className="bg-[#fdfbc8] p-6 rounded-xl shadow-lg flex flex-col gap-4">
             <h1 className="text-3xl font-bold text-[#7C3AED]">{item.title}</h1>
@@ -59,7 +59,7 @@ export default function MobileDetailsPage() {
               </button>
               <button
                 onClick={handleBuyNow}
-                className="px-6 py-3 bg-gray-200 text-[#3A2A14] font-semibold rounded-md hover:bg-[#fce9b7] transition shadow-md hover:shadow-lg"
+                className="px-6 py-3 bg-gray-200 text-[#3A2A14] font-semibold rounded-md hover:bg-[#e868f7] transition shadow-md hover:shadow-lg"
               >
                 Buy Now
               </button>

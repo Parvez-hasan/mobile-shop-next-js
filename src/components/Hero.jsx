@@ -48,7 +48,7 @@ export default function Hero() {
 
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight mb-5">
             Discover the Latest <br />
-            <span className="text-[#9b6af0]">Smartphones</span> Today
+            <span className="text-[#e53af8]">Smartphones</span> Today
           </h1>
 
           <p className="text-base md:text-lg text-gray-200 mb-8 max-w-2xl mx-auto">
@@ -57,8 +57,7 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-
-            <Link href="/mobiles">
+            {/* <Link href="/mobiles">
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <button className="cursor-pointer bg-[#e537f8] shadow-[0px_4px_32px_0_rgba(99,102,241,.70)] px-6 py-3 rounded-xl border-[1px] border-slate-500 text-white text-base font-semibold group">
                   <div className="relative overflow-hidden ">
@@ -71,6 +70,19 @@ export default function Hero() {
                   </div>
                 </button>
               </div>
+            </Link> */}
+
+            <Link href="/mobiles" className="inline-flex justify-center">
+              <span className="bg-[#e537f8] shadow-[0px_4px_32px_0_rgba(99,102,241,.70)] px-6 py-3 rounded-xl border border-slate-500 text-white text-base font-semibold group">
+                <span className="relative overflow-hidden block">
+                  <span className="group-hover:-translate-y-7 block duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)]">
+                    Explore Mobiles
+                  </span>
+                  <span className="absolute top-7 left-0 group-hover:top-0 block duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)]">
+                    Explore Mobiles
+                  </span>
+                </span>
+              </span>
             </Link>
           </div>
         </div>

@@ -29,7 +29,7 @@ export default function MobilesPage() {
   return (
     <section className="w-10/12 mx-auto my-12">
       <h1 className="text-4xl font-bold text-center mb-8 text-[#7C3AED]">
-        Our Products
+        Our All Mobiles
       </h1>
 
       {/* Search Bar */}
@@ -73,7 +73,7 @@ export default function MobilesPage() {
 
                 <a
                   href={`/mobiles/${item.id}`}
-                  className="mt-4 block text-center bg-[#CE8946] text-white py-2 rounded-md font-semibold hover:opacity-90 transition"
+                  className="mt-4 block text-center bg-[#dd25f1] text-white py-2 rounded-md font-semibold hover:opacity-90 transition"
                 >
                   View Details
                 </a>
@@ -96,7 +96,7 @@ export default function MobilesPage() {
               onClick={() => setCurrentPage(page)}
               className={`px-4 py-2 rounded-md font-semibold transition
                 ${currentPage === page
-                  ? 'bg-[#7C3AED] text-white'
+                  ? 'bg-[#e843fa] text-white'
                   : 'bg-gray-200 text-gray-700 hover:bg-[#fce9b7]'
                 }`}
             >

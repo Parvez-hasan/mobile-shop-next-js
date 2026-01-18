@@ -252,6 +252,26 @@
     "rating": 4.6,
     "category": "Accessories",
     "stock": 120
+  },
+  {
+    "id": 26,
+    "title": "ip Wireless Charging Pad",
+    "description": "Sleek wireless charging pad compatible with all Qi-enabled smartphones for hassle-free charging.",
+    "image": "https://i.ibb.co.com/x83RzrpD/onur-binay-OKj-JZNTl004-unsplash.jpg",
+    "price": 39,
+    "rating": 4.4,
+    "category": "Accessories",
+    "stock": 45
+  },
+   {
+    "id": 27,
+    "title": "iphone Buds 2 Pro",
+    "description": "Galaxy Buds 2 Pro deliver premium sound quality, noise cancellation, and comfortable fit for long listening sessions.",
+    "image": "https://i.ibb.co.com/yFGtX0Ld/alexander-andrews-Wzs4-QEm-CUQ-unsplash.jpg",
+    "price": 199,
+    "rating": 4.7,
+    "category": "Accessories",
+    "stock": 35
   }
 
  

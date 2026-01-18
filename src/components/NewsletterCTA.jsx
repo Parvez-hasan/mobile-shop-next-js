@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 export default function NewsletterCTA() {
   return (
-    <section className="py-24 px-4 md:px-10 bg-black text-white relative overflow-hidden">
+    <section className="py-20 px-4 md:px-10 bg-[#251939] text-white relative overflow-hidden">
       {/* Background Glow */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#CE8946]/20 via-transparent to-[#CE8946]/20 blur-2xl" />
 

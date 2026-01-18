@@ -4,7 +4,7 @@ import { FaFacebookF, FaInstagram, FaYoutube, FaLinkedinIn } from "react-icons/f
 export default function Footer() {
 
   return (
-    <footer className="bg-[#9b6af0] text-gray-900 pt-16 pb-10 mt-20">
+    <footer className="bg-gray-900 text-gray-900 pt-16 pb-10 mt-20">
       <div className="w-10/12 mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
 
         {/* Brand */}
@@ -12,7 +12,7 @@ export default function Footer() {
           <h2 className="text-2xl font-bold text-white mb-4">
             MobileShop
           </h2>
-          <p className="text-sm leading-relaxed text-gray-800">
+          <p className="text-sm leading-relaxed text-gray-300">
             Premium kitchen tools designed to make cooking faster, easier, and more enjoyable.
             Trusted by thousands of home cooks and professional chefs.
           </p>
@@ -23,7 +23,7 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-4 text-white">
             Quick Links
           </h3>
-          <ul className="space-y-2 text-sm text-gray-900">
+          <ul className="space-y-2 text-sm text-gray-300">
             <li className="hover:text-white cursor-pointer">Home</li>
             <li className="hover:text-white cursor-pointer">Shop</li>
             <li className="hover:text-white cursor-pointer">About Us</li>
@@ -36,7 +36,7 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-4 text-white">
             Customer Service
           </h3>
-          <ul className="space-y-2 text-sm text-gray-900">
+          <ul className="space-y-2 text-sm text-gray-300">
             <li className="hover:text-white cursor-pointer">Shipping & Returns</li>
             <li className="hover:text-white cursor-pointer">FAQs</li>
             <li className="hover:text-white cursor-pointer">Privacy Policy</li>
@@ -68,7 +68,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom */}
-      <div className="border-t border-black/10 mt-12 pt-6 text-center text-sm text-gray-900">
+      <div className="border-t border-black/10 mt-12 pt-6 text-center text-sm text-gray-300">
         © {new Date().getFullYear()} MobileShop. All rights reserved.
       </div>
     </footer>

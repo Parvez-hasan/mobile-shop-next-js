@@ -14,12 +14,12 @@ export default function AboutPage() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#000000] mb-4">
             About Our Mobile Shop
           </h2>
 
           <p className="text-gray-600 mb-4 leading-relaxed">
-            Welcome to <span className="font-semibold text-blue-600">Smart Mobile Shop</span>, 
+            Welcome to <span className="font-semibold text-[#e537f8]">Smart Mobile Shop</span>, 
             your trusted destination for the latest smartphones, accessories, and smart gadgets.
           </p>
 
@@ -31,15 +31,15 @@ export default function AboutPage() {
 
           <div className="flex gap-6 flex-wrap">
             <div>
-              <h3 className="text-2xl font-bold text-blue-600">10K+</h3>
+              <h3 className="text-2xl font-bold text-[#e537f8]">10K+</h3>
               <p className="text-gray-500 text-sm">Happy Customers</p>
             </div>
             <div>
-              <h3 className="text-2xl font-bold text-blue-600">100+</h3>
+              <h3 className="text-2xl font-bold text-[#e537f8]">100+</h3>
               <p className="text-gray-500 text-sm">Products</p>
             </div>
             <div>
-              <h3 className="text-2xl font-bold text-blue-600">5+</h3>
+              <h3 className="text-2xl font-bold text-[#e537f8]">5+</h3>
               <p className="text-gray-500 text-sm">Years Experience</p>
             </div>
           </div>
